@@ -1,4 +1,106 @@
-//I skipped exercise:1, because I was do it
+//exercise:1
+//Declare firstName, lastName, country, city, age, isMarried, year variable and assign value to it and use the typeof operator to check different data types.
+let first_Name = 'kuma'
+let last_Name = 'coffee'
+let country = 'Indonesian'
+let city = 'Surabaya'
+let age = 22
+let isMarried = false
+let yearNow = 2020
+console.log(typeof first_Name)
+console.log(typeof last_Name)
+console.log(typeof country)
+console.log(typeof city)
+console.log(typeof age)
+console.log(typeof isMarried)
+console.log(typeof yearNow)
+//Check if type of '10' is equal to 10
+let number = '10'
+console.log(number==10)
+console.log(number===10)
+//Check if parseInt('9.8') is equal to 10
+let g = parseInt('9.8')
+console.log(g==10)
+console.log(g===10)
+//Boolean value is either true or false.
+//Write three JavaScript statement which provide truthy value.
+let posNum = 10
+let hobby = 'sleep'
+let isCollege = true
+//Write three JavaScript statement which provide falsy value.
+let zero = 0
+let result = null
+let gender
+//Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
+//4 > 3
+console.log(4>3)//true
+//4 >= 3
+console.log(4>=3)//true
+//4 < 3
+console.log(4<3)//false
+//4 <= 3
+console.log(4<=3)//false
+//4 == 4
+console.log(4==4)//true
+//4 === 4
+console.log(4===4)//true
+//4 != 4
+console.log(4!=4)//false
+//4 !== 4
+console.log(4!==4)//false
+//4 != '4'
+console.log(4!='4')//false
+//4 == '4'
+console.log(4=='4')//true
+//4 === '4'
+console.log(4==='4')//false
+//Find the length of python and jargon and make a falsy comparison statement.
+let k  = 'python'
+let l = 'jargon'
+console.log(k.length)
+console.log(l.length)
+console.log(k.length>l.length)
+//Figure out the result of the following expressions first without using console.log(). After you decide the result confirm it by using console.log()
+//4 > 3 && 10 < 12
+console.log(4>3&&10<12)//true
+//4 > 3 && 10 > 12
+console.log(4>3&&10>12)//false
+//4 > 3 || 10 < 12
+console.log(4>3||10<12)//true
+//4 > 3 || 10 > 12
+console.log(4>3||10>12)//true
+//!(4 > 3)
+console.log(!(4>3))//false
+//!(4 < 3)
+console.log(!(4<3))//true
+//!(false)
+console.log(!(false))//true
+//!(4 > 3 && 10 < 12)
+console.log(!(4>3&&10<12))//false
+//!(4 > 3 && 10 > 12)
+console.log(!(4>3&&10>12))//true
+//!(4 === '4')
+console.log(!(4==='4'))//true
+//There is no 'on' in both dragon and python
+let m = 'dragon'
+let n = 'python'
+console.log(m.includes('on')&&n.includes('on'))
+//Use the Date object to do the following activities
+const now2 = new Date()
+//What is the year today?
+console.log(now2.getFullYear())
+//What is the month today as a number?
+console.log(now2.getMonth())
+//What is the date today?
+console.log(now2.getDate())
+//What is the day today as a number?
+console.log(now2.getDay())
+//What is the hours now?
+console.log(now2.getHours())
+//What is the minutes now?
+console.log(now2.getMinutes())
+//Find out the numbers of seconds elapsed from January 1, 1970 to now.
+console.log(now2.getTime())
 
 //exercise:2
 //Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
